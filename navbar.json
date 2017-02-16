@@ -1,0 +1,35 @@
+{
+    "id": 1,
+    "title": "Next Tools",
+    "back": "Go Back",
+    "button": [{
+        "id": 1,
+        "name": "info-Icon 1",
+        "status": "hidden"
+    }, {
+        "id": 2,
+        "name": "info-Icon 2",
+        "status": "required"
+    }, {
+        "id": 3,
+        "name": "info-Icon 3",
+        "status": "hidden"
+    }, {
+        "id": 4,
+        "name": "info-Icon 4",
+        "status": "required"
+    }],
+    "tabs": [{
+        "id": 1,
+        "name": "tab 1"
+    }, {
+        "id": 2,
+        "name": "tab 2"
+    }, {
+        "id": 3,
+        "name": "tab 3"
+    }, {
+        "id": 4,
+        "name": "tab 4"
+    }]
+}

@@ -1,0 +1,28 @@
+/*navBar tab*/
+
+md-tabs md-tabs-wrapper {
+    background-color: rgb(63, 81, 181);
+}
+
+
+/*navbar tab content*/
+
+.md-tab {
+    color: #FFFFFF !important;
+}
+
+md-tabs .md-tab .md-ripple-container {
+    color: #ECE9E8 !important;
+}
+
+md-tabs md-ink-bar {
+    color: #69F958;
+    background: #69F958;
+}
+
+
+/*Info-icon*/
+
+#navIcon {
+    margin-left: auto;
+}

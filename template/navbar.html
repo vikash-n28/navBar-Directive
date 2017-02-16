@@ -1,0 +1,28 @@
+<!--navbar display  -->
+<div layout="column" layout-fill>
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <md-button ng-if="getTab.back" aria-label="back">{{getTab.back}}</md-button>
+            <h3>
+                 <span>{{getTab.title}}</span>
+            </h3>
+            <div id="navIcon">
+                <md-button ng-if="iconButton" ng-repeat="icon in button track by $index">{{icon.name}}</md-button>
+            </div>
+            <div id="dropdown">
+                <menu>
+            </div>
+        </div>
+
+        <!--tabs display-->
+        <div ng-if="toolBar" class="toolBar" id="toolBar">
+            <md-content>
+                <md-tabs md-dynamic-height md-border-bottom>
+                    <md-tab ng-repeat="tab in tabs track by $index">
+                        <md-tab-label>{{tab.name}}</md-tab-label>
+                    </md-tab>
+                </md-tabs>
+            </md-content>
+        </div>
+    </md-toolbar>
+</div>
